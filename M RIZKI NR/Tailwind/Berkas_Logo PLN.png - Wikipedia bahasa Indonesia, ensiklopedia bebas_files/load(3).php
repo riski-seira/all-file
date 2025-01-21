@@ -1,0 +1,1 @@
+.heading-holder hlist li:after{content:""}@media (min-width:1000px){.sistersitebox,.navbox{font-size:0.7em !important}}

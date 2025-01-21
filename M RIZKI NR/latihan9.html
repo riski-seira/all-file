@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir pengisian KTP</title>
+    <style>
+        #output {
+            margin-top: 20px;
+            border: 1px solid #520505;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulir pengisian KTP</h1>
+    <form action="">
+       <label for="">NIK</label>
+       <input type="text">
+       <br>
+       <label for="">NAMA</label>
+       <input type="text">
+       <br>
+       <label for="">Tempat lahir</label>
+       <input type="text">
+       <br>
+       <label for="">Tanggal lahir</label>
+       <input type="date" name="" id="">
+       <br>
+       <label for="">Jenis Kelamin</label>
+       <input type="radio" name="jk" checked>Laki-laki 
+       <input type="radio" name="jk">Wanita
+       <br>
+       <label for="">Gol.Darah</label>
+       <select name="" id="">
+        <option value="">A</option>
+        <option value="">B</option>
+        <option value="" selected>O</option>
+        <option value="">AB</option>
+       </select>
+       <br>
+       <label for="">Alamat</label>
+       <input type="text">
+       <br>
+       <label for="">Agama</label>
+       <select name="" id="">
+        <option value="" selected>Islam</option>
+        <option value="">Kristen</option>
+        <option value="">hindu</option>
+        <option value="">Budha</option>
+        <option value="">Konghucu</option>
+       </select>
+       <br>
+       <label for="">Status</label>
+       <input type="radio" name="Status">Kawin
+       <input type="radio" name="Status" checked>Belum Kawin
+       <br>
+       <label for="">Pekerjaan</label>
+       <select name="" id="">
+        <option value="">Karyawan Swasta</option>
+        <option value="">Buruh</option>
+        <option value="">Pegawai Negeri</option>
+        <option value="">Abdi Negara</option>
+        <option value="">Ibu Rumah Tangga</option>
+       </select>
+       <br>
+       <label for="">Kewarganegaraan</label>
+       <input type="radio" name="kn" checked>WNI
+       <input type="radio" name="kn">WNA
+       <br>
+       <label for="">Berlaku sampai</label>
+       <input type="date" name="" id="">
+       <br>
+       <label for="">HOBI</label>
+       <input type="checkbox" name="hb" checked>Main Game
+       <input type="checkbox" name="hb">Bernyanyi
+       <br>
+       <input type="submit" value="proses">
+       <br>
+       <button onclick="tampilkanHasil()">Submit</button>
+    </form>
+</body>
+</html>
